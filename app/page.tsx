@@ -1,8 +1,13 @@
+import Sidebar from "@/components/Sidebar";
+import HeroTile from "@/components/HeroTile";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello Tamanna</h1>
-      <p>My first Next.js app</p>
+    <div className="flex">
+      <Sidebar />
+      <main>
+        <HeroTile />
+      </main>
     </div>
   );
 }
