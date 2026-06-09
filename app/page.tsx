@@ -1,13 +1,11 @@
-import Sidebar from "@/components/Sidebar";
-import HeroTile from "@/components/HeroTile";
+import Sidebar from "./components/Sidebar";
+import HeroTile from "./components/HeroTile";
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div>
       <Sidebar />
-      <main>
-        <HeroTile />
-      </main>
+      <HeroTile />
     </div>
   );
 }
