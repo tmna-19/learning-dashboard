@@ -3,9 +3,12 @@ import HeroTile from "./components/HeroTile";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex">
       <Sidebar />
-      <HeroTile />
+
+      <main className="flex-1 p-6">
+        <HeroTile />
+      </main>
     </div>
   );
 }
