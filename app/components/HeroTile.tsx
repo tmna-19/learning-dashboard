@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import StatsCard from "./StatsCard";
 
 export default function HeroTile() {
   return (
