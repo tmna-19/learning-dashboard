@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import StatsCard from "./StatsCard";
 
 export default function HeroTile() {
   return (
@@ -18,5 +19,6 @@ export default function HeroTile() {
         Continue your learning journey
       </p>
     </motion.div>
+    
   );
 }
