@@ -18,10 +18,27 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
-          <CourseCard />
-          <CourseCard />
-          <CourseCard />
-          <CourseCard />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+  <CourseCard
+    title="React Fundamentals"
+    progress="65%"
+  />
+
+  <CourseCard
+    title="JavaScript Mastery"
+    progress="80%"
+  />
+
+  <CourseCard
+    title="Next.js Basics"
+    progress="40%"
+  />
+
+  <CourseCard
+    title="TypeScript Essentials"
+    progress="55%"
+  />
+</div>
         </div>
       </main>
     </div>

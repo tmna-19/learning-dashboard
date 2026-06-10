@@ -1,12 +1,18 @@
-export default function CourseCard() {
+export default function CourseCard({
+  title,
+  progress,
+}: {
+  title: string;
+  progress: string;
+}) {
   return (
     <div className="bg-white rounded-xl shadow p-4">
       <h3 className="font-bold text-lg">
-        React Fundamentals
+        {title}
       </h3>
 
       <p className="text-gray-600 mt-2">
-        Progress: 65%
+        Progress: {progress}
       </p>
 
       <div className="w-full bg-gray-200 h-2 rounded mt-2">

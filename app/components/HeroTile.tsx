@@ -11,7 +11,7 @@ export default function HeroTile() {
         Welcome Back Tamanna 👋
       </h1>
       <p className="mt-2">
-        Continue your learning journey
+        Continue your learning journey and track your progress
       </p>
     </motion.div>
   );
