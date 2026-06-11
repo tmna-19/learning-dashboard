@@ -15,6 +15,7 @@ export default function Home() {
           <StatsCard title="Courses" value="12" />
           <StatsCard title="Hours Learned" value="48" />
           <StatsCard title="Certificates" value="3" />
+          <StatsCard title="Learning Streak" value="15 Days" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
