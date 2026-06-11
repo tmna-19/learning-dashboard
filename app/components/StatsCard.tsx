@@ -6,9 +6,14 @@ export default function StatsCard({
   value: string;
 }) {
   return (
-    <div className="bg-white rounded-xl shadow p-4">
-      <h3 className="text-gray-500">{title}</h3>
-      <p className="text-3xl font-bold">{value}</p>
+    <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700 hover:border-blue-500 transition">
+      <h3 className="text-slate-400 text-sm">
+        {title}
+      </h3>
+
+      <p className="text-3xl font-bold mt-2">
+        {value}
+      </p>
     </div>
   );
 }
