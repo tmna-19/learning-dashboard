@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LearnHub – Learning Dashboard
 
-## Getting Started
+## Overview
 
-First, run the development server:
+LearnHub is a responsive learning dashboard built using Next.js, React, TypeScript, Tailwind CSS, Framer Motion, and React Icons.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The dashboard helps users track their learning progress, courses, certificates, and recent activities through a modern and interactive interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Responsive Sidebar Navigation
+* Hero Section
+* Statistics Cards
+* Learning Progress Cards
+* Profile Card
+* Recent Activity Section
+* Dark/Light Mode Toggle
+* Responsive Design
+* Framer Motion Animations
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* React Icons
+* GitHub
+* Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Live Demo: (Paste your Vercel link here)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub Repository: (Paste your GitHub repository link here)

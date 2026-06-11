@@ -25,10 +25,12 @@ export default function CourseCard({
       </p>
 
       <div className="w-full bg-slate-700 h-2 rounded mt-4">
+        {/* stylelint-disable */}
         <div
           className="bg-blue-500 h-2 rounded"
           style={{ width: `${progress}%` }}
         ></div>
+        {/* stylelint-enable */}
       </div>
     </motion.div>
   );

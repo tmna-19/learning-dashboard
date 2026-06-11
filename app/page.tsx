@@ -1,16 +1,27 @@
+"use client";
+import { useState } from "react";
 import StatsCard from "./components/StatsCard";
 import Sidebar from "./components/Sidebar";
 import HeroTile from "./components/HeroTile";
 import CourseCard from "./components/CourseCard";
-import ActivityCard from "./components/ActivityCard";
-import StreaksCard from "./components/StreaksCard";
 
 export default function Home() {
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <div className="flex min-h-screen bg-slate-950 text-white">
-      <Sidebar />
+      <div
+        className={`flex min-h-screen ${
+        darkMode ? "bg-black text-white" : "bg-gray-100 text-black"
+        }`}>
+        <Sidebar />
 
-      <main className="flex-1 p-8 space-y-6">
+        <main>
+        <div className="flex justify-end mb-4">
+        <button
+        onClick={() => setDarkMode(!darkMode)}
+        className="px-4 py-2 rounded-lg bg-blue-500 text-white">
+        {darkMode ? "☀️ Light Mode" : "🌙 Dark Mode"}
+        </button>
+        </div>
         <HeroTile />
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-6">
