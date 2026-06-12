@@ -31,6 +31,6 @@ The dashboard helps users track their learning progress, courses, certificates, 
 
 ## Deployment
 
-Live Demo: (Paste your Vercel link here)
+Live Demo: (https://vercel.com/tamanna-s-projects8/learning-dashboard)
 
-GitHub Repository: (Paste your GitHub repository link here)
+GitHub Repository: (https://github.com/tmna-19/learning-dashboard)
