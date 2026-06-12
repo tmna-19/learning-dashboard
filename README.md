@@ -46,3 +46,17 @@ https://github.com/tmna-19/learning-dashboard
 - Database Support
 - Course Management System
 - Progress Analytics
+
+## Architecture Notes
+
+- Built using Next.js App Router.
+- UI components are organized into reusable modules such as Sidebar, HeroTile, CourseCard, and ActivityCard.
+- Server-side data fetching is handled through Supabase integration.
+- Framer Motion is used for animations and interactive transitions.
+- Tailwind CSS is used for responsive styling and layout management.
+
+## Challenges Faced
+
+- Managing GitHub and Vercel deployment synchronization.
+- Creating reusable UI components while maintaining responsiveness.
+- Implementing loading states and optimizing the user experience.
