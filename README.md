@@ -1,5 +1,11 @@
 # LearnHub – Learning Dashboard
 
+## Preview
+
+![Dashboard Preview 1](./assets/dashboard-preview.png)
+
+![Dashboard Preview 2](./assets/dashboard-preview2.png)
+
 ## Overview
 LearnHub is a responsive learning dashboard built using Next.js, React, TypeScript, Tailwind CSS, Framer Motion, and React Icons.
 
