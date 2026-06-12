@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import StatsCard from "./components/StatsCard";
 import Sidebar from "./components/Sidebar";
